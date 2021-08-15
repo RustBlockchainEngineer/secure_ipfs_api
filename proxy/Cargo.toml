@@ -6,3 +6,16 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+actix-web = "3.3.2"
+actix-service = "1.0.6"
+ipfs-api = "0.11.0"
+thiserror = "1.0.26"
+serde = "1.0.127"
+serde_json = "1.0.66"
+futures = "0.3.16"
+bson = "1.2.3"
+chrono = {version = "0.4.19", features = ["serde"]}
+mongodb = "1.2.2"
+uuid = {version = "0.8.2", features = ["serde"]}
+url = "2.2.2"
